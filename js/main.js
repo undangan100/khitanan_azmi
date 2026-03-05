@@ -3,76 +3,73 @@
 
 const KHITAN_CONFIG = {
     // Data Anak
-    namaAnak: "Ahmad Fauzi",
-    namaLengkap: "Ahmad Fauzi Ramadhan",
-    namaPanggilan: "Fauzi",
+    namaAnak: "Muhammad Azmi",
+    namaLengkap: "Muhammad Azmi",
+    namaPanggilan: "Azmi",
     
     // Orang Tua
-    namaAyah: "H. Abdullah, S.Ag",
-    namaIbu: "Hj. Aminah",
+    namaAyah: "Mardi",
+    namaIbu: "Desi Purnamasari",
     
     // Detail Anak
-    tempatLahir: "Jakarta",
-    tanggalLahir: "15 Januari 2017",
-    usiaKhitan: "7 Tahun",
+    tempatLahir: "",
+    tanggalLahir: "",
+    usiaKhitan: "",
     
     // Foto (Upload ke i.ibb.co)
-    fotoAnak: "https://i.ibb.co/example/foto-anak.jpg",
+    fotoAnak: "https://i.ibb.co.com/YF5xxQqm/IMG-20260304-WA0012.jpg",
     
     // Data Acara
-    tanggalAcara: "2024-06-15", // Format: YYYY-MM-DD untuk countdown
-    coverDate: "15 Juni 2024",
-    heroDate: "Sabtu, 15 Juni 2024 / 8 Dzulhijjah 1445 H",
+    tanggalAcara: "2026-04-04", // Format: YYYY-MM-DD untuk countdown
+    coverDate: "04 April 2026",
+    heroDate: "Sabtu, 04 April 2026 / 8 Dzulhijjah 1445 H",
     
-    // Akad & Khitan
-    acaraDate: "Sabtu, 15 Juni 2024",
-    acaraTime: "Pukul 08:00 - 12:00 WIB",
-    acaraVenue: "Masjid Al-Hikmah",
-    acaraAddress: "Jl. Mawar No. 123, Jakarta Selatan",
-    acaraMaps: "https://maps.google.com/?q=-6.2088,106.8456",
+    // Khitan
+    acaraDate: "04 April 2026",
+    acaraTime: "Pukul 08:00 - Selesai",
+    acaraVenue: "Kediaman Mardi",
+    acaraAddress: "Kp.wangkal RT 003/07 des.kalijaya kec Cikarang Barat kab.bekasi",
+    acaraMaps: "https://maps.app.goo.gl/RZk4Cf3qaXgqTCwMA",
     
     // Walimatul Khitan (Resepsi)
-    resepsiDate: "Sabtu, 15 Juni 2024",
-    resepsiTime: "Pukul 13:00 - 16:00 WIB",
-    resepsiVenue: "Gedung Serbaguna Al-Hikmah",
-    resepsiAddress: "Jl. Mawar No. 125, Jakarta Selatan",
-    resepsiMaps: "https://maps.google.com/?q=-6.2090,106.8458",
+    resepsiDate: "04 April 2026"
+    resepsiTime: "Pukul 13:00 - Selesai",
+    resepsiVenue: "Kediaman Mardi",
+    resepsiAddress: "Kp.wangkal RT 003/07 des.kalijaya kec Cikarang Barat kab.bekasi",
+    resepsiMaps: "https://maps.app.goo.gl/RZk4Cf3qaXgqTCwMA",
     
     // Gallery (Upload ke i.ibb.co)
     galleryPhotos: [
-        "https://i.ibb.co/example/photo1.jpg",
-        "https://i.ibb.co/example/photo2.jpg",
-        "https://i.ibb.co/example/photo3.jpg",
-        "https://i.ibb.co/example/photo4.jpg",
-        "https://i.ibb.co/example/photo5.jpg",
-        "https://i.ibb.co/example/photo6.jpg"
+        "https://i.ibb.co.com/7d45wVZH/photo-2026-03-04-21-51-36-7613521464276287564.jpg",
+        "https://i.ibb.co.com/zHQPrhjZ/IMG-20260304-WA0005.jpg",
+        "https://i.ibb.co.com/MyWzmZXq/IMG-20260304-WA0006.jpg"
     ],
     
     // Audio Background (Upload ke archive.org)
-    audioUrl: "https://archive.org/download/islamic-background-music/background.mp3",
+    audioUrl: "https://archive.org/download/sholawat-badar-sabyan-1/SHOLAWAT%20BADAR%20%28%D8%B5%D9%84%D9%88%D8%A7%D8%AA%20%D8%A8%D8%AF%D8%B1%29%20-%20SABYAN%20%281%29.mp3",
     
     // QRIS (Upload ke i.ibb.co)
-    qrisImage: "https://i.ibb.co/example/qris.jpg",
+    qrisImage: "https://i.ibb.co.com/Wv7d0CvZ/photo-2026-03-04-17-41-43-7613457061241684208.jpg",
     
     // Bank Accounts
     bankAccounts: [
         {
-            bank: "Bank Syariah Indonesia",
+            bank: "Bank central asia",
             logo: "https://i.ibb.co/example/bsi-logo.png",
             nomor: "1234567890",
-            nama: "Abdullah"
+            nama: "Mardi"
         },
         {
-            bank: "Bank Mandiri",
+            bank: "E wallet Dana",
             logo: "https://i.ibb.co/example/mandiri-logo.png",
             nomor: "0987654321",
-            nama: "Aminah"
+            nama: "Desi Purnama sari"
         }
     ],
     
     // Kontak RSVP (Format: 62xxxxxxxxxx)
-    whatsappRSVP: "6281234567890",
-    namaKontak: "Bapak Abdullah",
+    whatsappRSVP: "6282298151430",
+    namaKontak: "Desi Purnamasari",
     
     // Doa-doa Khitan (bisa ditambah/diedit)
     doaList: [
